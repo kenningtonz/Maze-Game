@@ -8,10 +8,13 @@ public class Player : MonoBehaviour
     public float lookspeed;
 
 
+
+
     // Update is called once per frame
     void Update()
     {
         //movement
+
 
         //move right
         if (Input.GetKey(KeyCode.D))
