@@ -2890,6 +2890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &257192641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11084,7 +11085,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &939611730
 PrefabInstance:
@@ -11697,7 +11698,7 @@ Transform:
   - {fileID: 524594915}
   - {fileID: 1997749242}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &979501300
 PrefabInstance:
@@ -15356,6 +15357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &1303628960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17977,6 +17979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &1574159723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19085,6 +19088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &1648801439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19455,6 +19459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &1675920769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22945,6 +22950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &1963003160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24057,6 +24063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1306814430}
+  alreadydone: 0
 --- !u!65 &2064187439
 BoxCollider:
   m_ObjectHideFlags: 0

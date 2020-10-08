@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CheckpointTrigger : MonoBehaviour
 {
     public GameObject gamemanager;
-   
+   public bool alreadydone = false;
     float lastTime = 0.0f;
 
 
@@ -19,9 +19,12 @@ public class CheckpointTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collided");
-       
-        gamemanager.GetComponent<Score>().setsheckpointcounter(1);
+        if (alreadydone == false)
+        {
+            gamemanager.GetComponent<Score>().setsheckpointcounter(1);
+        }
+        alreadydone = true;
+      
         gamemanager.GetComponent<Checkpoints>().currentcheckpoint = gameObject;
         float currenttime = Time.time;
         float checkpointtime = currenttime - lastTime;
