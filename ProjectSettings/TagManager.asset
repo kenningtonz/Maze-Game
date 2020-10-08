@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MoveX
   - MoveZ
+  - End
   layers:
   - Default
   - TransparentFX

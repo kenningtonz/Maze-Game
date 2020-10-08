@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 
+
 public class Checkpoints : MonoBehaviour
 {
 
     public GameObject player;
-    public GameObject[] checkpoints;
     public GameObject currentcheckpoint;
-
+   // public TextAsset textfile;
 
     void Start()
     {
@@ -62,6 +62,9 @@ public class Checkpoints : MonoBehaviour
     }
 
     // Update is called once per frame
+
+
+
     void Update()
     {
    

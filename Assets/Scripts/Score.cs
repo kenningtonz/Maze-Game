@@ -26,7 +26,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     public void setScore()
     {
-        score += Time.deltaTime;
+        score += Time.deltaTime ;
         scoreText.GetComponent<Text>().text = score.ToString("F0");
     }
 

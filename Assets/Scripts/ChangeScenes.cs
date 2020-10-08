@@ -9,16 +9,19 @@ public class ChangeScenes : MonoBehaviour
    public void play()
     {
         SceneManager.LoadScene("PlayScene");
+        Debug.Log("play");
     }
 
     public void end()
     {
         SceneManager.LoadScene("EndScene");
+        Debug.Log("end");
     }
 
     public void start()
     {
         SceneManager.LoadScene("StartScene");
+        Debug.Log("start");
     }
 
     // Update is called once per frame
