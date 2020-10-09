@@ -10,17 +10,12 @@ public class Score : MonoBehaviour
 
     public GameObject checkpointText;
     public int checkpointcounter = 0;
-    // Start is called before the first frame update
-    private void Start()
-    {
-      
-    }
+
 
     public void setsheckpointcounter(int add)
     {
         checkpointcounter += add;
         checkpointText.GetComponent<Text>().text = checkpointcounter.ToString("0");
-        Debug.Log("addcounter");
     }
 
     // Update is called once per frame

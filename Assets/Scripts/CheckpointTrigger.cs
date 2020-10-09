@@ -27,8 +27,6 @@ public class CheckpointTrigger : MonoBehaviour
             float currenttime = Time.time;
             float checkpointtime = currenttime - lastTime;
             lastTime = currenttime;
-
-           //gamemanager.GetComponent<TextReaderWriter>().writetotext(checkpointtime);
             gamemanager.GetComponent<Checkpoints>().SaveTime(checkpointtime);
         }
         alreadydone = true;
@@ -36,11 +34,8 @@ public class CheckpointTrigger : MonoBehaviour
         //if its the last checkpoint
      if (transform.tag == "End")
         {
-
-
             //write to the text file
             gamemanager.GetComponent<TextReaderWriter>().writetotext();
-
 
             goodjobtext.SetActive(true);
 
@@ -53,8 +48,7 @@ public class CheckpointTrigger : MonoBehaviour
     IEnumerator corutine()
     {
         yield return endtimes;
-            gamemanager.GetComponent<ChangeScenes>().end();
-
+        gamemanager.GetComponent<ChangeScenes>().end();
     }
 
     // Update is called once per frame

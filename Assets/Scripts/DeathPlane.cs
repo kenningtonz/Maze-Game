@@ -19,7 +19,6 @@ public class DeathPlane : MonoBehaviour
         //respawn
         player.transform.position = gamemanager.GetComponent<Checkpoints>().currentcheckpoint.transform.position;
         player.transform.rotation = Quaternion.Euler(0, 0, 0);
-        Debug.Log("falled");
     }
 
 

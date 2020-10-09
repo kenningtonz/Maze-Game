@@ -8,13 +8,6 @@ public class TextReaderWriter : MonoBehaviour
    // TextAsset text;
     string location = "Assets/Stats.txt";
 
- 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-   
-    }
 
 
     public void writetotext()
@@ -26,7 +19,6 @@ public class TextReaderWriter : MonoBehaviour
         }
         textwriter.WriteLine(gameObject.GetComponent<Checkpoints>().loadtotaltime());
         textwriter.Close();
-        Debug.Log("writed");
     }
 
     public void readtext()
@@ -39,9 +31,7 @@ public class TextReaderWriter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //adding the lines to a string array
       
-     
-
+    
     }
 }

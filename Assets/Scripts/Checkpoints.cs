@@ -9,14 +9,9 @@ public class Checkpoints : MonoBehaviour
 
     public GameObject player;
     public GameObject currentcheckpoint;
-   // public TextAsset textfile;
-
-    void Start()
-    {
-       
-        
-    }
    
+
+ 
     private const string DLL_NAME = "EnginesDLLMidterm";
 
     [DllImport(DLL_NAME)]
@@ -68,18 +63,6 @@ public class Checkpoints : MonoBehaviour
     void Update()
     {
    
-
-        for (int i = 0; i < 10; i++)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha0 + i))
-            {
-                Debug.Log(loadtime(i));
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            Debug.Log(GetTotalTime());
-        }
     }
 
     private void OnDestroy()

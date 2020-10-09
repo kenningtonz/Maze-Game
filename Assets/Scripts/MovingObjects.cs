@@ -10,13 +10,13 @@ public class MovingObjects : MonoBehaviour
     private int direction = 1;
     private Vector3 initalpostiion;
     private float maxmovedx;
-    private float maxmovedy;
+    private float maxmovedz;
 
     void Start()
     {
         initalpostiion = transform.position;
         maxmovedx = initalpostiion.x + 2.0f;
-        maxmovedy = initalpostiion.z + 2.0f;
+        maxmovedz = initalpostiion.z + 2.0f;
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class MovingObjects : MonoBehaviour
 
         if (transform.tag == "MoveZ")
         {
-            if (transform.position.z > maxmovedy)
+            if (transform.position.z > maxmovedz)
             {
                 direction = -1;
             }

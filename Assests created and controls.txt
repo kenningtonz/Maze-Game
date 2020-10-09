@@ -1,4 +1,7 @@
 Floor tile - verts:135  faces:126   edges: 260	   
 Inside wall -  verts:3462   faces:3038   edges:6486       
 Outside wall -  verts:3140   faces:2858   edges:5957       
-Trap Floor Animation -  verts:135  faces:126   edges: 260	  
+Trap Floor Animation -  verts:135  faces:126   edges: 260
+
+music is fomr hogue is home made during a gamejam
+controls are wasd to move and q and e to rotate view	  
